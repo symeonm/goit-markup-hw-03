@@ -176,11 +176,9 @@ h6 {
 }
 
 .button-order {
+  width: 200px;
   cursor: pointer;
   background: var(--brand-color);
-}
-
-.order-service {
   font-family: "Roboto";
   font-style: normal;
   color: #ffffff;
@@ -301,8 +299,8 @@ h6 {
 /* Підвал */
 
 .footer {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address {
@@ -336,8 +334,8 @@ h6 {
 
 .portfolio-nav {
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 50px;
+
+  padding-bottom: 50px;
   display: flex;
   list-style-type: none;
 }
@@ -385,8 +383,6 @@ h6 {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 94px;
-
   list-style-type: none;
 }
 
@@ -426,9 +422,7 @@ h6 {
 }
 
 .border-box {
-  padding: 20px 20px;
-  width: 370px;
-  height: 109px;
+  padding: 20px 24px;
   border: 1px solid;
-  border-color: #ffffff;
+  border-color: #eeeeee;
 }
